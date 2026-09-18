@@ -1,4 +1,8 @@
 import './style.css'
+// P1Consigne 4
+import './test.css'
+// P1 Consigne 5
+// import '/reset.css'
 import heroImg from './assets/hero.png'
 import javascriptLogo from './assets/javascript.svg'
 import viteLogo from './assets/vite.svg'
@@ -25,6 +29,8 @@ document.querySelector('#app').innerHTML = `
     <svg class="icon" role="presentation" aria-hidden="true"><use href="/icons.svg#documentation-icon"></use></svg>
     <h2>Documentation</h2>
     <p>Your questions, answered</p>
+    <!-- P1 Consigne 4 -->
+    <p id="we-try-to">(We try to)</p>
     <ul>
       <li>
         <a href="https://vite.dev/" target="_blank">
@@ -44,6 +50,8 @@ document.querySelector('#app').innerHTML = `
     <svg class="icon" role="presentation" aria-hidden="true"><use href="/icons.svg#social-icon"></use></svg>
     <h2>Connect with us</h2>
     <p>Join the Vite community</p>
+    <!-- P1 Consigne 4 -->
+    <p id = "only-if-you-want">Only if you want !</p>
     <ul>
       <li><a href="https://github.com/vitejs/vite" target="_blank"><svg class="button-icon" role="presentation" aria-hidden="true"><use href="/icons.svg#github-icon"></use></svg>GitHub</a></li>
       <li><a href="https://chat.vite.dev/" target="_blank"><svg class="button-icon" role="presentation" aria-hidden="true"><use href="/icons.svg#discord-icon"></use></svg>Discord</a></li>
