@@ -23,17 +23,7 @@
         <main>
             <h1 class="titre">MES PATISSERIES</h1>
             <ul class="pastries-list">
-                <li class="pastry">
-                    <figure>
-                        <img src='/assets/images/brioche-cannelle.jpg' alt='' loading="lazy">
-                    </figure>
-                    <section class='textes'>
-                        <h2 class='titre'>Brioche à la cannelle ou Kanelbulle</h2>
-                        <p class='description'>
-                            1,75 € / unité
-                        </p>
-                    </section>
-                </li>
+                {% include "./components/brioche-cannelle.njk" %}
                 <li class="pastry">
                     <figure>
                         <img src='/assets/images/lunettes.jpg' alt='' loading="lazy">
@@ -45,17 +35,7 @@
                         </p>
                     </section>
                 </li>
-                <li class="pastry">
-                    <figure>
-                        <img src='/assets/images/macarons.jpg' alt='' loading="lazy">
-                    </figure>
-                    <section class='textes'>
-                        <h2 class='titre'>Macarons (plusieurs goûts)</h2>
-                        <p class='description'>
-                            20 € / la douzaine
-                        </p>
-                    </section>
-                </li>
+                {% include "./components/macarons.njk" %}
                 <li class="pastry">
                     <figure>
                         <img src='/assets/images/opera-the-matcha.jpg' alt='' loading="lazy">
